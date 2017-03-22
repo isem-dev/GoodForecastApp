@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">Добрый Прогноз</string>
+
+    <string name="action_map">Локация на карте</string>
+    <string name="action_refresh">Обновить прогноз</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="action_share">Поделиться</string>
+    <string name="share_hashtag">#ДобрыйПрогноз</string>
+
+    <string name="title_activity_detail">Детали</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="pref_location_label">Локация</string>
+
+    <string name="pref_units_label">Единицы измерения</string>
+    <string name="pref_units_label_metric">Метрические</string>
+    <string name="pref_units_label_imperial">Английские</string>
+
+    <string name="pref_notifications_label">Уведомления</string>
+    <string name="pref_notifications_true">Включено</string>
+    <string name="pref_notifications_false">Выключено</string>
+
+    <!-- Date label when displaying today's weather forecast [CHAR LIMIT=20] -->
+    <!-- Language-specific constants -->
+    <string name="today">Сегодня</string>
+
+    <!-- Date label when displaying tomorrow's weather forecast [CHAR LIMIT=20] -->
+    <!-- Language-specific constants -->
+    <string name="tomorrow">Завтра</string>
+
+    <!-- Date format for displaying day of week and date (i.e. Mon 1 June) [CHAR LIMIT=20] -->
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>\n<xliff:g id="date">%2$s</xliff:g></string>
+
+    <!-- Strings for formatting weather-related data -->
+
+    <!-- Humidity format CHAR LIMIT=25]-->
+    <string name="format_humidity">Влажность: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+
+    <!-- Pressure format CHAR LIMIT=25] -->
+    <string name="format_pressure">Давление: <xliff:g id="pressure">%1.0f</xliff:g> гПа</string>
+
+    <!-- Windspeed formats -->
+
+    <!-- Wind in mph [CHAR LIMIT=25] -->
+<string name="format_wind_mph">Ветер: <xliff:g id="speed">%1$1.0f</xliff:g> миль/ч <xliff:g id="direction">%2$s</xliff:g>
+</string>
+    <!-- Wind in kph [CHAR LIMIT=25] -->
+<string name="format_wind_kmh">Ветер: <xliff:g id="speed">%1$1.0f</xliff:g> км/ч <xliff:g id="direction">%2$s</xliff:g>
+</string>
+
+    <!-- Notification Format -->
+    <string name="format_notification">
+    Прогноз: <xliff:g id="condition">%1$s</xliff:g>  <xliff:g id="high">%2$s</xliff:g>/<xliff:g id="low">%3$s</xliff:g>
+    </string>
+
+    <!-- Wind direction names -->
+    <string name="wind_direction_N">Св</string>
+    <string name="wind_direction_NE">Св-Вс</string>
+    <string name="wind_direction_E">Вс</string>
+    <string name="wind_direction_SE">Юг-Вс</string>
+    <string name="wind_direction_S">Юж</string>
+    <string name="wind_direction_SW">Юг-Зп</string>
+    <string name="wind_direction_W">Зп</string>
+    <string name="wind_direction_NW">Св-Зп</string>
+
+    <!--Weather description names-->
+    <string name="storm">Гроза</string>
+    <string name="light_rain">Небольшой дождь</string>
+    <string name="rain">Дождь</string>
+    <string name="snow">Снег</string>
+    <string name="fog">Туман</string>
+    <string name="clear">Солнечно</string>
+    <string name="light_clouds">Переменная облачность</string>
+    <string name="clouds">Облачно</string>
+
+</resources>

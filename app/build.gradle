@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "com.android.isem.goodforecast"
+        minSdkVersion 10
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildTypes.each {
+        // Replace OpenWeatherMapApiKey with your API Key in the format '"abcdefgh012345"'
+        // Use both single quotes followed by double quotes.
+        it.buildConfigField 'String', 'OPEN_WEATHER_MAP_API_KEY', '"abcdefgh012345"'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    androidTestCompile files('libs/junit-4.12.jar')
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c71a3</color>
+    <color name="colorPrimaryDark">#1e5d8b</color>
+    <color name="colorAccent">#f9842e</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_700">#646464</color>
+    <color name="black">#000000</color>
+
+    <color name="sunshine_light_blue">#ff64c2f4</color>
+    <color name="sunshine_blue">#ff1ca8f4</color>
+    <color name="sunshine_dark_blue">#0288D1</color>
+
+    <!--<color name="dark_style_light">#7e7d79</color>-->
+    <!--<color name="dark_style_standart">#4e4d4a</color>-->
+    <!--<color name="dark_style_dark">#353432</color>-->
+    <!--<color name="dark_style_acccent">#fd8b18</color>-->
+
+    <!--<color name="dark_style_light">#7e7d79</color>-->
+    <!--<color name="dark_style_standart">#7c1640</color>-->
+    <!--<color name="dark_style_dark">#373737</color>-->
+    <!--<color name="dark_style_acccent">#fd7a09</color>-->
+
+</resources>
